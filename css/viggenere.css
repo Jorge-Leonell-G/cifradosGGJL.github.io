@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+
+:root {
+    --color-terminal: #292b36;
+    --borde-redondo: 4px;
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+	background-color: slategray;
+	width:100%;
+	
+}
+
+header{
+	background-color:#3a9399;
+	margin: 1rem;
+	border-radius: 10px;
+	padding: 1rem;
+	vertical-align: middle;
+    text-align: center;
+	display: flex;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+article{
+	align-content: center;
+	margin: 0rem;
+	border-radius: 10px;
+	padding: 2rem;
+	vertical-align: middle;
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	text-align: center;
+	display: flex;
+}
+
+textarea{
+    width: 100%;
+	text-align: center;
+}
+
+.posicionamiento{
+    width: 50%;
+    text-align: center;
+}
+
+.contenedor{
+	background-color: #b394dd;
+	border-radius: 10px;
+	margin: 2rem;
+	justify-content: center;
+	padding: 1rem;
+	vertical-align: middle;
+    text-align: center;
+	display: flex;
+    box-shadow: 8px 8px 35px 0px rgb(0 0 0 / 75%);
+    border-radius: var(--borde-redondo);
+	display: flex;
+}
+
+.center-block{
+    background-color: rgb(196, 145, 207);
+	height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+  
+a{
+    font-style: italic;
+    font-weight: 800;
+}

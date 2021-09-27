@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Cifrado y Descifrado Cesar/Viggenere</title>
+  </head>
+  <body>
+    <h1 id="title-main">Bienvenido al programa de cifrados de la materia de SWyA</h1>
+
+    <!-- Tarjetas para las opciones de cifrado -->
+
+    <div class="flex-container">
+        <div class="card" style="width: 18rem;">
+            <img src="./image/cesar.jfif" class="card-img-top" alt="Busto de Julio César">
+            <div class="card-body">
+              <h5 class="card-title">Cifrado César.</h5>
+              <p class="card-text">Cifrado por desplazamiento que se remonta en la Antigua Roma; en donde según registros históricos, el emperador
+                Julio César lo utilizó para comunicar mensajes de gran importancia entre sus generales. ¿?a.C.</p>
+            </div>
+          </div>
+
+          <!--Un <div> que contenga un "VS" entre los dos personajes XD
+            <div id="fight">
+              <img src="./image/streetfightersample.jfif" alt="FIGHT">
+            </div>
+          -->
+    
+          <div class="card" style="width: 18rem;">
+            <img src="./image/viggenere.jfif" class="card-img-top" alt="Retrato de Giovan Batista Belaso">
+            <div class="card-body">
+              <h5 class="card-title">Cifrado Viggenere</h5>
+              <p class="card-text">Cifrado polialfabético por sustitución que se basa en la formación de carácteres del alfabeto 
+                  dispuestos en una tabla, con el uso de una clave que se repite a lo largo del mensaje a cifrar.</p>
+            </div>
+          </div>
+    </div>
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+
+    <h3 id="title-m">Puede elegir el modo de cifrado que desee a través de los siguientes enlaces:</h3>
+    <hr>
+  <!--A través de los botones, estableceremos eventos en donde se muestre la interfaz correspondiente a cada modo de cifrado-->
+    <div class="cipher-container">
+      <a href="./cesar.html">Modo de cifrado César</a>
+      <a href="./viggenere.html">Modo de cifrado Viggenere</a>
+    </div>
+    <br>
+    <!--seccion de scripts-->
+    <script src="js/cesar.js"></script>
+    <script src="js/viggenere.js"></script>
+  </body>
+  <!--seccion footer-->
+  <footer>
+      <div class="footer-container">
+        <p>Grimaldo Guadarrama Jorge Leonell 5IV8</p>
+      </div>
+  </footer>
+</html>

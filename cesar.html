@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifrador Cesar</title>
+    <link href="./css/cesar.css" rel="stylesheet " />
+    <script src="./js/cesar.js" type="text/javascript" defer></script>
+</head>
+<body>
+    <main>
+        <h1>Cifrado / Descifrado César.</h1>
+        <form id="cifrador" autocomplete="off">
+            <input id="input-plain" spellcheck="false" placeholder="Ingrese su mensaje, seleccione el desplazamiento y presione ENTER al finalizar" type="text" name="text">
+        </form>
+        <div id="resultado"></div>
+        <div class="rango">
+            <input id="rango" type="range" value="1" min="1" max="25" oninput="this.nextElementSibling.value = this.value">
+            <output>1</output>
+        </div>
+        <br>
+        <a href="./index.html">Regresar al menú principal</a>
+    </main>
+    <footer id="creditos">
+        Créditos al siguiente <a href="https://github.com/accesibleprogramacion/cifrador-cesar">enlace</a> que me salvó la vida unu
+    </footer>
+</body>
+</html>

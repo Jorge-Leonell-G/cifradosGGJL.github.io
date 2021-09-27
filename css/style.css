@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+
+:root {
+    --color-terminal: #292b36;
+    --borde-redondo: 4px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+#title-main{
+    background-color: rgb(211, 212, 229);
+    padding: 12px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    background-color: burlywood;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.flex-container div{
+    text-align: center;
+    border: 2px solid black;
+}
+
+#title-m{
+    background-color: rgb(211, 212, 229);
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+}
+
+.cipher-container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    background-color: burlywood;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.cesar-option{
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #5d869e;
+    color: white;
+}
+
+.vige-option{
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #5d869e;
+    color: white;
+}
+
+footer{
+    background-color: rgb(170, 190, 138);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(22, 21, 21);
+}
